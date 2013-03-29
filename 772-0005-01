@@ -141,7 +141,7 @@ Advanced
 *			Resolution 100x31: Disabled
 			Legacy OS Redirection Resolu: 80x25
 			Putty KeyPad: VT100
-			Redirection After BIOS POST: Always Enable
+*			Redirection After BIOS POST: Until Bootloader
 		Serial Port for OOBM/Windows Console Redirection: Disabled
 
 	ACPI Settings

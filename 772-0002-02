@@ -1,4 +1,4 @@
-Joyent p/n 772-0003-01 (JCP 1100 firmware configuration, SDC 7)
+Joyent p/n 772-0002-02 (JCP 1200 firmware configuration, SDC 6)
 Copyright (c) 2013 Joyent, Inc.  All rights reserved.
 
 BIOS configuration options
@@ -87,7 +87,20 @@ Advanced
 			EHCI Hand-off: Disabled
 
 	SATA Configuration
-*		SATA Mode: Disabled
+		SATA Mode: AHCI Mode
+		Aggressive Link Power Manage: Enabled
+		Port 0 Hot Plug: Enabled
+		Port 1 Hot Plug: Enabled
+		Port 2 Hot Plug: Enabled
+		Port 3 Hot Plug: Enabled
+		Port 4 Hot Plug: Enabled
+		Port 5 Hot Plug: Enabled
+		Port 0 Staggered Spin-up: Disabled
+		Port 1 Staggered Spin-up: Disabled
+		Port 2 Staggered Spin-up: Disabled
+		Port 3 Staggered Spin-up: Disabled
+		Port 4 Staggered Spin-up: Disabled
+		Port 5 Staggered Spin-up: Disabled
 
 	PCIe/PCI/PnP Configuration
 		Launch Storage OpROM policy: Legacy only
@@ -106,7 +119,7 @@ Advanced
 *		CPU2 Slot5 PCI-E 3.0 x8 OPROM: Disabled
 *		CPU1 Slot6 PCI-E 3.0 x8 OPROM: Disabled
 		Onboard Lan Option ROM Selec: PXE
-*		Load Onboard LAN 1 Option ROM: Disabled
+		Load Onboard LAN 1 Option ROM: Enabled
 		Load Onboard LAN 2 Option ROM: Disabled
 		Load Onboard LAN 3 Option ROM: Disabled
 		Load Onboard LAN 4 Option ROM: Disabled
@@ -181,7 +194,7 @@ IPMI
 *			Gateway IP address: [ordering workflow]
 
 Boot
-*	Boot Option #1: Kingston USB Key
+*	Boot Option #1: i350 0500/0600 (onboard NIC #1)
 *	Boot Option #2: UEFI: Built-in EFI Shell
 *	Boot Option #3: Disabled
 
