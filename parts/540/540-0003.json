@@ -1,0 +1,10 @@
+{
+	"pn": "540-0003",
+	"desc": "Joyent Storage Platform 5000, 4U, base",
+	"dashroll": "01",
+	"rev": 50,
+	"constituents": {
+		"270-0009": 1,
+		"270-0003": 1
+	}
+}
