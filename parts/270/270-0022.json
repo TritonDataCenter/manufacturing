@@ -1,0 +1,12 @@
+{
+	"pn": "270-0022",
+	"mfg": "stec",
+	"mfgpn": "M16ISD2-50UCU",
+	"desc": "50GB 2.5 SATA Mach16 SLC SSD",
+	"refs": [
+		{
+			"uri": "http://www.hgst.com/solid-state-storage/enterprise-ssd/sata-ssd/mach16-sata-ssd",
+			"title": "Manufacturer documentation"
+		}
+	]
+}

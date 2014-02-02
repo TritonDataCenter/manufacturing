@@ -1,0 +1,13 @@
+{
+	"pn": "270-0012",
+	"mfg": "smci",
+	"mfgpn": "unknown",
+	"desc": "SMT X9 IPMI firmware revision 2.13",
+	"eol": "2014-01-01",
+	"refs": [
+		{
+			"uri": "http://www.supermicro.com/ResourceApps/BIOS_IPMI.aspx",
+			"title": "Manufacturer download"
+		}
+	]
+}

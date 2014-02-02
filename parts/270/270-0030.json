@@ -1,0 +1,12 @@
+{
+	"pn": "270-0030",
+	"mfg": "smci",
+	"mfgpn": "CSE-826BE16-R920LPB",
+	"desc": "2U chassis 12x3.5 SAS w/expander 920W red. PSU",
+	"refs": [
+		{
+			"uri": "http://www.supermicro.com/products/chassis/2U/826/SC826BE16-R920LP.cfm",
+			"title": "Manufacturer documentation"
+		}
+	]
+}

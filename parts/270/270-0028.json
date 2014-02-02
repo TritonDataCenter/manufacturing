@@ -1,0 +1,12 @@
+{
+	"pn": "270-0028",
+	"mfg": "intc",
+	"mfgpn": "CM8063501287304",
+	"desc": "E5-2667 v2 CPU",
+	"refs": [
+		{
+			"uri": "http://ark.intel.com/products/75273/Intel-Xeon-Processor-E5-2667-v2-25M-Cache-3_30-GHz",
+			"title": "Manufacturer documentation"
+		}
+	]
+}

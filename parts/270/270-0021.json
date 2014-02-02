@@ -1,0 +1,12 @@
+{
+	"pn": "270-0021",
+	"mfg": "hgst",
+	"mfgpn": "0B26013",
+	"desc": "C10K900 600GB 2.5 10k SAS-2 disk, no FDE",
+	"refs": [
+		{
+			"uri": "http://www.hgst.com/tech/techlib.nsf/techdocs/6B0D240DEAE260328825796000064178/$file/USC10K900_ds.pdf",
+			"title": "Datasheet"
+		}
+	]
+}

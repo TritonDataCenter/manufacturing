@@ -1,0 +1,16 @@
+{
+	"pn": "370-0006",
+	"desc": "SATA SSD, 800 GB, 2.5, w/firmware",
+	"dashroll": 1,
+	"rev": 50,
+	"constituents": [
+		{
+			"pn": "270-0025",
+			"qty": 1
+		},
+		{
+			"pn": "270-0034",
+			"qty": 1
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"pn": "270-0014",
+	"mfg": "smci",
+	"mfgpn": "35017Q1C",
+	"desc": "Intel i350 SEEPROM configuration (1/09/2013)",
+	"refs": [
+		{
+			"uri": "https://downloadcenter.intel.com/SearchResult.aspx?lang=eng&ProductFamily=Ethernet+Components&ProductLine=Ethernet+Controllers&ProductProduct=Intel®+Ethernet+Controller+I350",
+			"title": "OEM support page"
+		}
+	]
+}

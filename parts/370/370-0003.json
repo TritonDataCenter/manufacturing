@@ -1,0 +1,16 @@
+{
+	"pn": "370-0003",
+	"desc": "SAS disk, 4000 GB, 3.5, w/firmware",
+	"dashroll": 1,
+	"rev": 50,
+	"constituents": [
+		{
+			"pn": "270-0023",
+			"qty": 1
+		},
+		{
+			"pn": "270-0017",
+			"qty": 1
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"pn": "270-0004",
+	"mfg": "smci",
+	"mfgpn": "AOC-S2308L-L8E",
+	"desc": "LSISAS2308 IT mode PCIe2 low profile HBA",
+	"refs": [
+		{
+			"uri": "http://www.supermicro.com/products/nfo/storage_cards.cfm",
+			"title": "Manufacturer parts listing"
+		}
+	]
+}

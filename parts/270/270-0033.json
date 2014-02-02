@@ -1,0 +1,12 @@
+{
+	"pn": "270-0033",
+	"mfg": "smci",
+	"mfgpn": "unknown",
+	"desc": "X9DRD BIOS revision X9DRD73.C05",
+	"refs": [
+		{
+			"uri": "http://www.supermicro.com/ResourceApps/BIOS_IPMI.aspx",
+			"title": "Manufacturer download"
+		}
+	]
+}

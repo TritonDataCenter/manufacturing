@@ -1,0 +1,12 @@
+{
+	"pn": "270-0026",
+	"mfg": "stec",
+	"mfgpn": "Z4RZF3D-8UC",
+	"desc": "ZeusRAM 8GB SAS-2 SSD",
+	"refs": [
+		{
+			"uri": "http://www.hgst.com/tech/techlib.nsf/techdocs/A97CC442A86EB9A788257C4100015BE5/$file/HGST_ZeusRAM_ds.pdf",
+			"title": "Datasheet"
+		}
+	]
+}

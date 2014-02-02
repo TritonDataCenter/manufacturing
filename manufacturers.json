@@ -1,0 +1,30 @@
+[
+	{
+		"name": "hgst",
+		"title": "HGST, Inc."
+	},
+	{
+		"name": "intc",
+		"title": "Intel Corp."
+	},
+	{
+		"name": "joyent",
+		"title": "Joyent, Inc."
+	},
+	{
+		"name": "kingston",
+		"title": "Kingston Technology Company, Inc."
+	},
+	{
+		"name": "lsi",
+		"title": "LSI Corporation"
+	},
+	{
+		"name": "smci",
+		"title": "SuperMicro Computer, Inc."
+	},
+	{
+		"name": "stec",
+		"title": "STEC, Inc."
+	}
+]
