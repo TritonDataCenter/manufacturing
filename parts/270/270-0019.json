@@ -2,5 +2,6 @@
 	"pn": "270-0019",
 	"mfg": "intc",
 	"mfgpn": "CM8062101082713",
-	"desc": "E5-2670 CPU"
+	"desc": "E5-2670 CPU",
+	"ref": "http://ark.intel.com/products/64595/Intel-Xeon-Processor-E5-2670-20M-Cache-2_60-GHz-8_00-GTs-Intel-QPI"
 }

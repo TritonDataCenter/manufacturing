@@ -2,5 +2,6 @@
 	"pn": "270-0001",
 	"mfg": "smci",
 	"mfgpn": "CSE-213A-R740LPB",
-	"desc": "2U chassis 16x2.5 SAS w/o expander 740W red. PSU"
+	"desc": "2U chassis 16x2.5 SAS w/o expander 740W red. PSU",
+	"ref": "http://www.supermicro.com/products/chassis/2U/213/SC213A-R740LP.cfm"
 }

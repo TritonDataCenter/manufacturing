@@ -2,5 +2,6 @@
 	"pn": "270-0003",
 	"mfg": "intc",
 	"mfgpn": "E10G42BFSR",
-	"desc": "X520-SR2, dual 10GbE, SR SFP+ optics (2xE10GSFPSR) included"
+	"desc": "X520-SR2, dual 10GbE, SR SFP+ optics (2xE10GSFPSR) included",
+	"ref": "http://www.intel.com/p/en_US/support/highlights/network/x520server"
 }
