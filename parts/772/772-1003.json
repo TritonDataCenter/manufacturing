@@ -3,5 +3,8 @@
 	"desc": "JSP 5001 SMBIOS configuration",
 	"dashroll": "02",
 	"rev": 50,
-	"ref": "parts/772/772-1003-02"
+	"ref": {
+		"uri": "parts/772/772-1003-02",
+		"title": "Specification"
+	}
 }

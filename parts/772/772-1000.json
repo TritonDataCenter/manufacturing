@@ -3,5 +3,8 @@
 	"desc": "JCP 1101 SMBIOS configuration",
 	"dashroll": "02",
 	"rev": 50,
-	"ref": "parts/772/772-1000-02"
+	"ref": {
+		"uri": "parts/772/772-1000-02",
+		"title": "Specification"
+	}
 }

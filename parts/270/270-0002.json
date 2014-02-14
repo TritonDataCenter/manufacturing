@@ -3,5 +3,8 @@
 	"mfg": "smci",
 	"mfgpn": "X9DRD-7JLN4F",
 	"desc": "Dual LGA2011 system board 16 DIMMs integrated BMC, LSI2308 IT",
-	"ref": "http://www.supermicro.com/products/motherboard/Xeon/C600/X9DRD-7LN4F-JBOD.cfm"
+	"ref": {
+		"uri": "http://www.supermicro.com/products/motherboard/Xeon/C600/X9DRD-7LN4F-JBOD.cfm",
+		"title": "Manufacturer documentation"
+	}
 }

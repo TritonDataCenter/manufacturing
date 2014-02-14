@@ -3,5 +3,8 @@
 	"desc": "JCP 1100 firmware configuration, SDC 7",
 	"dashroll": "01",
 	"rev": 50,
-	"ref": "parts/772/772-0003-01"
+	"ref": {
+		"uri": "parts/772/772-0003-01",
+		"title": "Specification"
+	}
 }

@@ -45,20 +45,28 @@ FILES = \
 	bom.md \
 	index.md
 
+EXTRADIRS := $(shell find parts -type d)
+EXTRAS := $(shell find parts -type f)
+
 OUTDIR =	build/docs/public
 BOOTSTRAP_OUTDIRS = \
 	$(BOOTSTRAP_TYPES:%=$(OUTDIR)/bootstrap/%)
 
+OUTDIRS = \
+	$(OUTDIR) \
+	$(EXTRADIRS:%=$(OUTDIR)/%)
+
 OUTFILES = \
 	$(FILES:%.md=$(OUTDIR)/%.html) \
 	$(IMAGE_FILES:%=$(OUTDIR)/img/%) \
+	$(EXTRAS:%=$(OUTDIR)/%) \
 	$(BOOTSTRAP_FILES:%=$(OUTDIR)/bootstrap/%)
 
 docs: all
 
-all: $(OUTDIR) $(BOOTSTRAP_OUTDIRS) $(OUTFILES)
+all: $(OUTDIRS) $(BOOTSTRAP_OUTDIRS) $(OUTFILES)
 
-$(OUTDIR):
+$(OUTDIRS):
 	mkdir -p "$@"
 
 $(OUTDIR)/img:
@@ -89,6 +97,10 @@ bom.md: parts/*/*.json manufacturers.json support/mkbom.js
 	echo $@
 	pwd
 	( support/mkbom.js ) > $@
+
+$(OUTDIR)/%: %
+	cp $< $@
+	touch $@
 
 clean:
 	rm -rf build

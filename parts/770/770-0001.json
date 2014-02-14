@@ -3,5 +3,8 @@
 	"desc": "Blank image, for USB key",
 	"dashroll": "01",
 	"rev": 50,
-	"ref": "file:///dev/zero"
+	"ref": {
+		"uri": "file:///dev/zero",
+		"title": "Content"
+	}
 }

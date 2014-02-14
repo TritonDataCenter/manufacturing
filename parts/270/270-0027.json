@@ -1,0 +1,10 @@
+{
+	"pn": "270-0027",
+	"mfg": "intc",
+	"mfgpn": "CM8063501375101",
+	"desc": "E5-2650 v2 CPU",
+	"ref": {
+		"uri": "http://ark.intel.com/products/75269/Intel-Xeon-Processor-E5-2650-v2-20M-Cache-2_60-GHz",
+		"title": "Manufacturer documentation"
+	}
+}
