@@ -3,6 +3,7 @@
 	"desc": "JCP 1100 firmware package, SDC 7",
 	"dashroll": 1,
 	"rev": 50,
+	"eol": "2014-03-24",
 	"constituents": [
 		{
 			"pn": "270-0011",

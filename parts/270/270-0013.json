@@ -3,6 +3,7 @@
 	"mfg": "smci",
 	"mfgpn": "unknown",
 	"desc": "X9DRD BIOS revision X9DRD72.C19",
+	"eol": "2014-01-01",
 	"refs": [
 		{
 			"uri": "http://www.supermicro.com/ResourceApps/BIOS_IPMI.aspx",

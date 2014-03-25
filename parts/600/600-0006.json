@@ -4,6 +4,7 @@
 	"alias": "Richmond-C-SDC7",
 	"dashroll": 3,
 	"rev": 50,
+	"eol": "2014-03-24",
 	"constituents": [
 		{
 			"pn": "540-0001-01",

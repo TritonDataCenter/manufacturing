@@ -47,8 +47,10 @@ if (p === null) {
 	process.exit(1);
 }
 w('Part: %s\n', p.pn().toString());
-w('Mfgr: %s %s\n', p.mfg().title(), p.mfgpn());
+w('Mfgr: %s %s\n', p.mfg().title(), p.mfgpn() !== null ? p.mfgpn() : '');
 w('Desc: %s\n', p.desc());
+if (p.eol_date() !== null)
+	w('EOL: %s\n', p.eol_date().toUTCString());
 if (p.alias())
 	w('Alias: %s\n', p.alias());
 p.refs().forEach(function (r) {

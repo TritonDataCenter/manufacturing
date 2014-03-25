@@ -3,6 +3,7 @@
 	"desc": "JSP 5000 firmware configuration, SDC 7",
 	"dashroll": 1,
 	"rev": 50,
+	"eol": "2014-03-24",
 	"refs": [
 		{
 			"uri": "parts/772/772-0005.md",

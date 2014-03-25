@@ -3,6 +3,7 @@
 	"mfg": "lsi",
 	"mfgpn": "unknown",
 	"desc": "LSISAS2308 IT-mode firmware revision 14.0.0.0",
+	"eol": "2014-01-01",
 	"refs": [
 		{
 			"uri": "ftp://supermicro.com/driver/SAS/LSI/2308/Firmware/IT",

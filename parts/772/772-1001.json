@@ -3,6 +3,7 @@
 	"desc": "JCP 1201 SMBIOS configuration",
 	"dashroll": 2,
 	"rev": 50,
+	"eol": "2014-03-24",
 	"refs": [
 		{
 			"uri": "parts/772/772-1001.md",

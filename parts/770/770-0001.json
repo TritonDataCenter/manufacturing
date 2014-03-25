@@ -3,6 +3,7 @@
 	"desc": "Blank image, for USB key",
 	"dashroll": 1,
 	"rev": 50,
+	"eol": "2014-03-24",
 	"refs": [
 		{
 			"uri": "file:///dev/zero",

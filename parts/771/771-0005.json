@@ -3,6 +3,7 @@
 	"desc": "JSP 5000 firmware package, SDC 7",
 	"dashroll": 2,
 	"rev": 50,
+	"eol": "2014-03-24",
 	"constituents": [
 		{
 			"pn": "270-0011",
