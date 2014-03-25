@@ -2,5 +2,11 @@
 	"pn": "270-0006",
 	"mfg": "smci",
 	"mfgpn": "SNK-P0048P",
-	"desc": "Heatsink"
+	"desc": "Heatsink",
+	"refs": [
+		{
+			"uri": "http://www.supermicro.com/manuals/brochure/X9_Heatsinks_socketR.pdf",
+			"title": "Manufacturer line card"
+		}
+	]
 }

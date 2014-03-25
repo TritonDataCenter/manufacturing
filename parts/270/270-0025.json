@@ -3,8 +3,10 @@
 	"mfg": "intc",
 	"mfgpn": "SSDSC2BA800G301",
 	"desc": "DC S3700 800 GB SSD",
-	"ref": {
-		"uri": "http://www.intel.com/content/www/us/en/solid-state-drives/solid-state-drives-dc-s3700-series.html",
-		"title": "Manufacturer documentation"
-	}
+	"refs": [
+		{
+			"uri": "http://www.intel.com/content/www/us/en/solid-state-drives/solid-state-drives-dc-s3700-series.html",
+			"title": "Manufacturer documentation"
+		}
+	]
 }

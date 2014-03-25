@@ -1,0 +1,12 @@
+{
+	"pn": "772-0007",
+	"desc": "JCP 2200 firmware configuration",
+	"dashroll": 1,
+	"rev": 50,
+	"refs": [
+		{
+			"uri": "parts/772/772-0007.md",
+			"title": "Specification"
+		}
+	]
+}

@@ -2,5 +2,6 @@
 	"pn": "270-0017",
 	"mfg": "hgst",
 	"mfgpn": "unknown",
-	"desc": "7K4000 firmware revision A152"
+	"desc": "7K4000 firmware revision A152",
+	"refs": []
 }

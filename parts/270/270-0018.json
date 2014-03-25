@@ -2,5 +2,6 @@
 	"pn": "270-0018",
 	"mfg": "stec",
 	"mfgpn": "unknown",
-	"desc": "ZeusRAM firmware revision C018"
+	"desc": "ZeusRAM firmware revision C018",
+	"refs": []
 }

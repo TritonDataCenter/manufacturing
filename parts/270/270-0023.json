@@ -3,8 +3,10 @@
 	"mfg": "hgst",
 	"mfgpn": "0B26885",
 	"desc": "UltraStar 7K4000 HUS724040ALS640 3.5 4TB 512n SAS-2, no FDE",
-	"ref": {
-		"uri": "http://www.hgst.com/tech/techlib.nsf/techdocs/FD3F376DC2ECCE68882579D40082C393/$file/US7K4000_ds.pdf",
-		"title": "Datasheet"
-	}
+	"refs": [
+		{
+			"uri": "http://www.hgst.com/tech/techlib.nsf/techdocs/FD3F376DC2ECCE68882579D40082C393/$file/US7K4000_ds.pdf",
+			"title": "Datasheet"
+		}
+	]
 }

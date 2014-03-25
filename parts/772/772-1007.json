@@ -1,0 +1,12 @@
+{
+	"pn": "772-1007",
+	"desc": "JSP 6001 SMBIOS configuration",
+	"dashroll": 1,
+	"rev": 50,
+	"refs": [
+		{
+			"uri": "parts/772/772-1007.md",
+			"title": "Specification"
+		}
+	]
+}

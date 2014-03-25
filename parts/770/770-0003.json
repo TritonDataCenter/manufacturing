@@ -1,10 +1,12 @@
 {
 	"pn": "770-0003",
 	"desc": "SDC 7 software image, 20140117T203533Z, for USB key",
-	"dashroll": "02",
+	"dashroll": 2,
 	"rev": 50,
-	"ref": {
-		"uri": "TBD",
-		"title": "Content"
-	}
+	"refs": [
+		{
+			"uri": "TBD",
+			"title": "Content"
+		}
+	]
 }

@@ -1,0 +1,12 @@
+{
+	"pn": "270-0035",
+	"mfg": "smci",
+	"mfgpn": "CSE-847E16-R1K28LPB",
+	"desc": "4U chassis 36x3.5 SAS w/expanders 1280W red. PSU",
+	"refs": [
+		{
+			"uri": "http://www.supermicro.com/products/chassis/4U/847/SC847E16-R1K28LP.cfm",
+			"title": "Manufacturer documentation"
+		}
+	]
+}

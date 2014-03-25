@@ -1,10 +1,12 @@
 {
 	"pn": "772-1000",
 	"desc": "JCP 1101 SMBIOS configuration",
-	"dashroll": "02",
+	"dashroll": 2,
 	"rev": 50,
-	"ref": {
-		"uri": "parts/772/772-1000-02",
-		"title": "Specification"
-	}
+	"refs": [
+		{
+			"uri": "parts/772/772-1000.md",
+			"title": "Specification"
+		}
+	]
 }

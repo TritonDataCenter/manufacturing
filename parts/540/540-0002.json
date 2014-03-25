@@ -1,11 +1,20 @@
 {
 	"pn": "540-0002",
 	"desc": "Joyent Compute Platform 1200, 2U, base",
-	"dashroll": "01",
+	"dashroll": 1,
 	"rev": 50,
-	"constituents": {
-		"270-0007": 1,
-		"270-0008": 1,
-		"270-0003": 1
-	}
+	"constituents": [
+		{
+			"pn": "270-0007",
+			"qty": 1
+		},
+		{
+			"pn": "270-0008",
+			"qty": 1
+		},
+		{
+			"pn": "270-0003",
+			"qty": 1
+		}
+	]
 }

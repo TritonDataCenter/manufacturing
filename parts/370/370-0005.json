@@ -1,0 +1,16 @@
+{
+	"pn": "370-0005",
+	"desc": "SAS HBA, PCIe x8, w/firmware",
+	"dashroll": 1,
+	"rev": 50,
+	"constituents": [
+		{
+			"pn": "270-0004",
+			"qty": 1
+		},
+		{
+			"pn": "270-0031",
+			"qty": 1
+		}
+	]
+}

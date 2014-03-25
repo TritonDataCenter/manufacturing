@@ -1,0 +1,12 @@
+{
+	"pn": "772-0008",
+	"desc": "JSP 6000 firmware configuration",
+	"dashroll": 1,
+	"rev": 50,
+	"refs": [
+		{
+			"uri": "parts/772/772-0008.md",
+			"title": "Specification"
+		}
+	]
+}

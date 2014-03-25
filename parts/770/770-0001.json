@@ -1,10 +1,12 @@
 {
 	"pn": "770-0001",
 	"desc": "Blank image, for USB key",
-	"dashroll": "01",
+	"dashroll": 1,
 	"rev": 50,
-	"ref": {
-		"uri": "file:///dev/zero",
-		"title": "Content"
-	}
+	"refs": [
+		{
+			"uri": "file:///dev/zero",
+			"title": "Content"
+		}
+	]
 }

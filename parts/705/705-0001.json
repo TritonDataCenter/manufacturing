@@ -1,10 +1,16 @@
 {
 	"pn": "705-0001",
 	"desc": "USB key, blank",
-	"dashroll": "01",
+	"dashroll": 1,
 	"rev": 50,
-	"constituents": {
-		"270-0010": 1,
-		"770-0001-01": 1
-	}
+	"constituents": [
+		{
+			"pn": "270-0010",
+			"qty": 1
+		},
+		{
+			"pn": "770-0001-01",
+			"qty": 1
+		}
+	]
 }

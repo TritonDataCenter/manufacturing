@@ -3,8 +3,10 @@
 	"mfg": "intc",
 	"mfgpn": "CM8062101122501",
 	"desc": "E5-2690 CPU",
-	"ref": {
-		"uri": "http://ark.intel.com/products/64596/Intel-Xeon-Processor-E5-2690-20M-Cache-2_90-GHz-8_00-GTs-Intel-QPI",
-		"title": "Manufacturer documentation"
-	}
+	"refs": [
+		{
+			"uri": "http://ark.intel.com/products/64596/Intel-Xeon-Processor-E5-2690-20M-Cache-2_90-GHz-8_00-GTs-Intel-QPI",
+			"title": "Manufacturer documentation"
+		}
+	]
 }

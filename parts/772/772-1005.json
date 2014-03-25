@@ -1,0 +1,12 @@
+{
+	"pn": "772-1005",
+	"desc": "JCP 2201 SMBIOS configuration",
+	"dashroll": 1,
+	"rev": 50,
+	"refs": [
+		{
+			"uri": "parts/772/772-1005.md",
+			"title": "Specification"
+		}
+	]
+}

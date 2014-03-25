@@ -14,6 +14,8 @@
 #
 
 PTYHON =	python
+NODE =		node
+NPM =		npm
 MD = 		./support/markdown2.py
 MARKDOWN2_TOC =	./support/markdown2-toc.py
 INDEX_TOC =	./support/index-toc.py
@@ -45,6 +47,12 @@ FILES = \
 	bom.md \
 	index.md
 
+MODS = \
+	extsprintf \
+	jsprim
+
+MODDIRS =	$(MODS:%=node_modules/%)
+
 EXTRADIRS := $(shell find parts -type d)
 EXTRAS := $(shell find parts -type f)
 
@@ -62,9 +70,9 @@ OUTFILES = \
 	$(EXTRAS:%=$(OUTDIR)/%) \
 	$(BOOTSTRAP_FILES:%=$(OUTDIR)/bootstrap/%)
 
-docs: all
-
 all: $(OUTDIRS) $(BOOTSTRAP_OUTDIRS) $(OUTFILES)
+
+docs: all
 
 $(OUTDIRS):
 	mkdir -p "$@"
@@ -93,10 +101,10 @@ $(OUTDIR)/bootstrap/%: assets/bootstrap/% $(BOOTSTRAP_OUTDIRS)
 	cp $< $@
 	touch $@
 
-bom.md: parts/*/*.json manufacturers.json support/mkbom.js
+bom.md: $(MODDIRS) parts/*/*.json manufacturers.json bin/gendoc.js
 	echo $@
 	pwd
-	( support/mkbom.js ) > $@
+	( $(NODE) bin/gendoc.js . ) > $@
 
 $(OUTDIR)/%: %
 	cp $< $@
@@ -106,5 +114,3 @@ clean:
 	rm -rf build
 
 clobber: clean
-
-FRC:

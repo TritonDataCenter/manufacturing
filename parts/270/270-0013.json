@@ -2,5 +2,11 @@
 	"pn": "270-0013",
 	"mfg": "smci",
 	"mfgpn": "unknown",
-	"desc": "X9DRD BIOS revision X9DRD72.C19"
+	"desc": "X9DRD BIOS revision X9DRD72.C19",
+	"refs": [
+		{
+			"uri": "http://www.supermicro.com/ResourceApps/BIOS_IPMI.aspx",
+			"title": "Manufacturer download"
+		}
+	]
 }

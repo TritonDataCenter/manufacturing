@@ -1,0 +1,12 @@
+{
+	"pn": "270-0031",
+	"mfg": "lsi",
+	"mfgpn": "unknown",
+	"desc": "LSISAS2308 IT-mode firmware revision 16.0.1.0",
+	"refs": [
+		{
+			"uri": "ftp://supermicro.com/driver/SAS/LSI/2308/Firmware/IT",
+			"title": "Manufacturer download"
+		}
+	]
+}

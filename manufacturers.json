@@ -1,23 +1,30 @@
-{
-	"hgst": {
-		"name": "HGST, Inc."
+[
+	{
+		"name": "hgst",
+		"title": "HGST, Inc."
 	},
-	"intc": {
-		"name": "Intel Corp."
+	{
+		"name": "intc",
+		"title": "Intel Corp."
 	},
-	"joyent": {
-		"name": "Joyent, Inc."
+	{
+		"name": "joyent",
+		"title": "Joyent, Inc."
 	},
-	"kingston": {
-		"name": "Kingston Technology Company, Inc."
+	{
+		"name": "kingston",
+		"title": "Kingston Technology Company, Inc."
 	},
-	"lsi": {
-		"name": "LSI Corporation"
+	{
+		"name": "lsi",
+		"title": "LSI Corporation"
 	},
-	"smci": {
-		"name": "SuperMicro Computer, Inc."
+	{
+		"name": "smci",
+		"title": "SuperMicro Computer, Inc."
 	},
-	"stec": {
-		"name": "STEC, Inc."
+	{
+		"name": "stec",
+		"title": "STEC, Inc."
 	}
-}
+]

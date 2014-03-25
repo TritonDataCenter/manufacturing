@@ -1,10 +1,12 @@
 {
 	"pn": "410-0001",
 	"desc": "System Label, QR-Encoded",
-	"dashroll": "01",
+	"dashroll": 1,
 	"rev": 50,
-	"ref": {
-		"uri": "parts/410/410-0001.md",
-		"title": "Specification"
-	}
+	"refs": [
+		{
+			"uri": "parts/410/410-0001.md",
+			"title": "Specification"
+		}
+	]
 }

@@ -1,10 +1,12 @@
 {
 	"pn": "772-0004",
 	"desc": "JCP 1200 firmware configuration, SDC 7",
-	"dashroll": "01",
+	"dashroll": 1,
 	"rev": 50,
-	"ref": {
-		"uri": "parts/772/772-0004-01",
-		"title": "Specification"
-	}
+	"refs": [
+		{
+			"uri": "parts/772/772-0004.md",
+			"title": "Specification"
+		}
+	]
 }

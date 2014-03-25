@@ -1,10 +1,12 @@
 {
 	"pn": "772-0005",
 	"desc": "JSP 5000 firmware configuration, SDC 7",
-	"dashroll": "01",
+	"dashroll": 1,
 	"rev": 50,
-	"ref": {
-		"uri": "parts/772/772-0005-01",
-		"title": "Specification"
-	}
+	"refs": [
+		{
+			"uri": "parts/772/772-0005.md",
+			"title": "Specification"
+		}
+	]
 }

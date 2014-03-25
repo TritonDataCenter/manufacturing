@@ -1,0 +1,16 @@
+{
+	"pn": "370-0002",
+	"desc": "SATA slog, 2.5, w/firmware",
+	"dashroll": 1,
+	"rev": 50,
+	"constituents": [
+		{
+			"pn": "270-0022",
+			"qty": 1
+		},
+		{
+			"pn": "270-0016",
+			"qty": 1
+		}
+	]
+}

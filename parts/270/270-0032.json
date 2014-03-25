@@ -1,0 +1,12 @@
+{
+	"pn": "270-0032",
+	"mfg": "smci",
+	"mfgpn": "unknown",
+	"desc": "SMT X9 IPMI firmware revision 3.17",
+	"refs": [
+		{
+			"uri": "http://www.supermicro.com/ResourceApps/BIOS_IPMI.aspx",
+			"title": "Manufacturer download"
+		}
+	]
+}
