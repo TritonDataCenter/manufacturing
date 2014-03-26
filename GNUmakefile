@@ -51,6 +51,9 @@ MODS = \
 	extsprintf \
 	jsprim
 
+CLEANFILES = \
+	bom.md
+
 MODDIRS =	$(MODS:%=node_modules/%)
 
 EXTRADIRS := $(shell find parts -type d)
@@ -101,6 +104,9 @@ $(OUTDIR)/bootstrap/%: assets/bootstrap/% $(BOOTSTRAP_OUTDIRS)
 	cp $< $@
 	touch $@
 
+node_modules/%:
+	$(NPM) install $*
+
 bom.md: $(MODDIRS) parts/*/*.json manufacturers.json bin/gendoc.js
 	echo $@
 	pwd
@@ -111,6 +117,6 @@ $(OUTDIR)/%: %
 	touch $@
 
 clean:
-	rm -rf build
+	rm -rf build $(CLEANFILES)
 
 clobber: clean
