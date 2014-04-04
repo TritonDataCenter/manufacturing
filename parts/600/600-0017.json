@@ -2,7 +2,7 @@
 	"pn": "600-0017",
 	"desc": "Joyent Compute Platform 2102, 2U, 32t, 256GB, SSD",
 	"alias": "Tenderloin-C",
-	"dashroll": 1,
+	"dashroll": 2,
 	"rev": 50,
 	"constituents": [
 		{
@@ -27,7 +27,7 @@
 		},
 		{
 			"pn": "370-0006-01",
-			"qty": 15
+			"qty": 9
 		},
 		{
 			"pn": "270-0003",
