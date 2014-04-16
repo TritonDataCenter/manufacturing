@@ -5,11 +5,12 @@
 var path = require('path');
 var partsdb = require('../lib/partsdb');
 var extsprintf = require('extsprintf');
+var disklayout = require('/usr/node/node_modules/disklayout');
 
 var fmt = extsprintf.sprintf;
 
 var db;
-var p;
+var p, rl;
 var conf = {
 	defmfg: 'joyent',
 	dbdir: process.argv[2]
@@ -39,6 +40,28 @@ dump_tree(p, level)
 	});
 }
 
+function
+dump_rsrc(r)
+{
+	switch (r.class) {
+		case 'nic':
+			w('%d x %d Gb %s NIC\n', r.qty, r.size, r.type);
+			break;
+		case 'cpu':
+			w('%d x %d MHz %s CPU\n', r.qty, r.size, r.type);
+			break;
+		case 'memory':
+			w('%d GiB %s\n', r.qty * r.size, r.type);
+			break;
+		case 'storage':
+			w('%d x %d GB %s\n', r.qty, r.size, r.type);
+			break;
+		default:
+			w('%d x %d %s %s\n', r.qty, r.size, r.type, r.class);
+			break;
+	}
+}
+
 db = partsdb.create(conf);
 
 p = db.find_part(process.argv[3]);
@@ -56,6 +79,36 @@ if (p.alias())
 p.refs().forEach(function (r) {
 	w('Ref: [%s] %s\n', r.title, r.uri);
 });
+rl = p.resources(db);
+if (rl.length > 0) {
+	var disks = [];
+	var dc = 0;
+	var layout;
+
+	w('Resources:\n');
+	rl.forEach(function (r) {
+		dump_rsrc(r);
+		if (r.class === 'storage') {
+			for (var i = 0; i < r.qty; i++) {
+				var d = {
+					type: 'SCSI',
+					name: 'disk' + (dc++),
+					vid: 'VENDOR',
+					pid: 'PRODUCT',
+					size: r.size * 1000000000,
+					removable: false,
+					solid_state: (r.type === 'ssd')
+				};
+				disks.push(d);
+			}
+		}
+	});
+
+	if (disks.length > 0) {
+		layout = disklayout.compute(disks);
+		w('Usable storage: %d GB\n', layout.capacity / 1000000000);
+	}
+}
 if (p.constituents().length > 0) {
 	w('Contents:\n');
 	dump_tree(p, 0);

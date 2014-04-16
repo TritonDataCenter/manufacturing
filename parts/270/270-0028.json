@@ -3,6 +3,14 @@
 	"mfg": "intc",
 	"mfgpn": "CM8063501287304",
 	"desc": "E5-2667 v2 CPU",
+	"resources": [
+		{
+			"class": "cpu",
+			"type": "E5v2",
+			"size": 3300,
+			"qty": 16
+		}
+	],
 	"refs": [
 		{
 			"uri": "http://ark.intel.com/products/75273/Intel-Xeon-Processor-E5-2667-v2-25M-Cache-3_30-GHz",

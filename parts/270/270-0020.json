@@ -4,6 +4,14 @@
 	"mfgpn": "MEM-DR316L-SL03-ER16",
 	"desc": "Samsung 16GB DDR3-1600 dual-rank ECC registered DIMM",
 	"eol": "2014-01-01",
+	"resources": [
+		{
+			"class": "memory",
+			"type": "ECC DRAM",
+			"size": 16,
+			"qty": 1
+		}
+	],
 	"refs": [
 		{
 			"uri": "http://www.supermicro.com/support/resources/memory/display.cfm?sz=16.0&mspd=1.6&mtyp=44&id=202188BAC10631760894507F0DF40902&prid=83100&type=DDR3&ecc=1®=1&fbd=0",

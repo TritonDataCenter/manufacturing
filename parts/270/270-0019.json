@@ -3,6 +3,14 @@
 	"mfg": "intc",
 	"mfgpn": "CM8062101082713",
 	"desc": "E5-2670 CPU",
+	"resources": [
+		{
+			"class": "cpu",
+			"type": "E5",
+			"size": 2600,
+			"qty": 16
+		}
+	],
 	"refs": [
 		{
 			"uri": "http://ark.intel.com/products/64595/Intel-Xeon-Processor-E5-2670-20M-Cache-2_60-GHz-8_00-GTs-Intel-QPI",

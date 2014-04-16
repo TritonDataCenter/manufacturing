@@ -3,6 +3,14 @@
 	"mfg": "intc",
 	"mfgpn": "E10G42BFSR",
 	"desc": "X520-SR2, dual 10GbE, SR SFP+ optics (2xE10GSFPSR) included",
+	"resources": [
+		{
+			"class": "nic",
+			"type": "Ethernet",
+			"size": 10,
+			"qty": 2
+		}
+	],
 	"refs": [
 		{
 			"uri": "http://www.intel.com/p/en_US/support/highlights/network/x520server",

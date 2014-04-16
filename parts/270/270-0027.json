@@ -3,6 +3,14 @@
 	"mfg": "intc",
 	"mfgpn": "CM8063501375101",
 	"desc": "E5-2650 v2 CPU",
+	"resources": [
+		{
+			"class": "cpu",
+			"type": "E5v2",
+			"size": 2600,
+			"qty": 16
+		}
+	],
 	"refs": [
 		{
 			"uri": "http://ark.intel.com/products/75269/Intel-Xeon-Processor-E5-2650-v2-20M-Cache-2_60-GHz",

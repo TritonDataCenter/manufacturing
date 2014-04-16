@@ -14,7 +14,7 @@
 #
 
 PTYHON =	python
-NODE =		node
+NODE =		/usr/node/bin/node
 NPM =		npm
 MD = 		./support/markdown2.py
 MARKDOWN2_TOC =	./support/markdown2-toc.py
@@ -45,14 +45,16 @@ IMAGE_FILES = \
 
 FILES = \
 	bom.md \
-	index.md
+	index.md \
+	matrix.md
 
 MODS = \
 	extsprintf \
 	jsprim
 
 CLEANFILES = \
-	bom.md
+	bom.md \
+	matrix.md
 
 MODDIRS =	$(MODS:%=node_modules/%)
 
@@ -111,6 +113,11 @@ bom.md: $(MODDIRS) parts/*/*.json manufacturers.json bin/gendoc.js
 	echo $@
 	pwd
 	( $(NODE) bin/gendoc.js . ) > $@
+
+matrix.md: $(MODDIRS) parts/*/*.json manufacturers.json bin/genmatrix.js
+	echo $@
+	pwd
+	( $(NODE) bin/genmatrix.js . ) > $@
 
 $(OUTDIR)/%: %
 	cp $< $@
