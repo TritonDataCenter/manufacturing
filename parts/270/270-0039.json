@@ -1,0 +1,20 @@
+{
+	"pn": "270-0039",
+	"mfg": "smci",
+	"mfgpn": "MEM-DR380L-SL05-ER18",
+	"desc": "Samsung 8GB DDR3-1866 dual-rank ECC registered DIMM",
+	"resources": [
+		{
+			"class": "memory",
+			"type": "ECC DRAM",
+			"size": 8,
+			"qty": 1
+		}
+	],
+	"refs": [
+		{
+			"uri": "http://www.costcentral.com/proddetail/SuperMicro_Samsung_DDR3/MEMDR380LSL05ER18/12034089/",
+			"title": "Representative information"
+		}
+	]
+}
