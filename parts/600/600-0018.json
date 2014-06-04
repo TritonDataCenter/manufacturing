@@ -2,7 +2,7 @@
 	"pn": "600-0018",
 	"desc": "Joyent Storage Platform 6001, 4U, 32t, 256GB, 108TB",
 	"alias": "Mantis Shrimp Mk II",
-	"dashroll": 1,
+	"dashroll": 2,
 	"rev": 50,
 	"constituents": [
 		{
@@ -39,7 +39,7 @@
 		},
 		{
 			"pn": "270-0003",
-			"qty": 1
+			"qty": 2
 		},
 		{
 			"pn": "270-0036",

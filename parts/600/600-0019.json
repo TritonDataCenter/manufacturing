@@ -1,8 +1,8 @@
 {
 	"pn": "600-0019",
-	"desc": "Joyent Compute Platform 2103, 2U, 32t, 64GB, RS",
+	"desc": "Joyent Compute Platform 2101, 2U, 32t, 64GB, RS",
 	"alias": "Tenderloin-A/RS",
-	"dashroll": 1,
+	"dashroll": 2,
 	"rev": 50,
 	"constituents": [
 		{
@@ -10,7 +10,7 @@
 			"qty": 1
 		},
 		{
-			"pn": "540-0008-01",
+			"pn": "540-0004-01",
 			"qty": 1
 		},
 		{
@@ -35,7 +35,7 @@
 		},
 		{
 			"pn": "270-0003",
-			"qty": 1
+			"qty": 2
 		},
 		{
 			"pn": "370-0005-01",
