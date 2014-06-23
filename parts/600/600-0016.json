@@ -2,7 +2,7 @@
 	"pn": "600-0016",
 	"desc": "Joyent Compute Platform 2201, 2U, 32t, 256GB, storage",
 	"alias": "Tenderloin-B/256",
-	"dashroll": 2,
+	"dashroll": 3,
 	"rev": 50,
 	"constituents": [
 		{
