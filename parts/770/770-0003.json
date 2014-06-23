@@ -1,11 +1,11 @@
 {
 	"pn": "770-0003",
-	"desc": "SDC 7 software image, 20140606T205458Z, for USB key",
-	"dashroll": 4,
+	"desc": "SDC 7 software image, 20140623T190818Z, for USB key",
+	"dashroll": 5,
 	"rev": 50,
 	"refs": [
 		{
-			"uri": "https://us-east.manta.joyent.com/Joyent_Dev/stor/builds/usbheadnode/master-20140606T205458Z/usbheadnode/usb-master-20140606T205458Z-gb06b779.tgz",
+			"uri": "https://us-east.manta.joyent.com/Joyent_Dev/stor/builds/usbheadnode/master-20140623T190818Z/usbheadnode/usb-master-20140623T190818Z-gae9045b.tgz",
 			"title": "Content"
 		}
 	]
