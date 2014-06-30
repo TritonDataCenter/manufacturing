@@ -48,15 +48,9 @@ FILES = \
 	index.md \
 	matrix.md
 
-MODS = \
-	extsprintf \
-	jsprim
-
 CLEANFILES = \
 	bom.md \
 	matrix.md
-
-MODDIRS =	$(MODS:%=node_modules/%)
 
 EXTRADIRS := $(shell find parts -type d)
 EXTRAS := $(shell find parts -type f)
@@ -106,15 +100,15 @@ $(OUTDIR)/bootstrap/%: assets/bootstrap/% $(BOOTSTRAP_OUTDIRS)
 	cp $< $@
 	touch $@
 
-node_modules/%:
-	$(NPM) install $*
+node_modules:
+	$(NPM) install
 
-bom.md: $(MODDIRS) parts/*/*.json manufacturers.json bin/gendoc.js
+bom.md: node_modules parts/*/*.json manufacturers.json bin/gendoc.js
 	echo $@
 	pwd
 	( $(NODE) bin/gendoc.js . ) > $@
 
-matrix.md: $(MODDIRS) parts/*/*.json manufacturers.json bin/genmatrix.js
+matrix.md: node_modules parts/*/*.json manufacturers.json bin/genmatrix.js
 	echo $@
 	pwd
 	( $(NODE) bin/genmatrix.js . ) > $@

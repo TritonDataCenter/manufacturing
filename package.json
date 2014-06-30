@@ -1,0 +1,11 @@
+{
+	"name": "joyent-manufacturing",
+	"description": "Joyent manufacturing database and tools",
+	"version": "1.0.0",
+	"author": "Joyent (joyent.com)",
+	"dependencies": {
+		"extsprintf": "~1.0.3",
+		"jsprim": "~0.5.1",
+		"joyent-schemas": "git://github.com/joyent/schemas.git#master"
+	}
+}
