@@ -3,6 +3,7 @@
 	"mfg": "kingston",
 	"mfgpn": "DTR30/16G",
 	"desc": "Data Traveler 3.0 16 GB USB flash device",
+	"eol": "2014-09-01",
 	"refs": [
 		{
 			"uri": "http://www.kingston.com/datasheets/dtr30_us.pdf",

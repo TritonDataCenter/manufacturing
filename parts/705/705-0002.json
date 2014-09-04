@@ -1,11 +1,11 @@
 {
 	"pn": "705-0002",
 	"desc": "USB key, SDC 7, FDUM supported",
-	"dashroll": 5,
+	"dashroll": 6,
 	"rev": 50,
 	"constituents": [
 		{
-			"pn": "270-0010",
+			"pn": "270-0040",
 			"qty": 1
 		},
 		{

@@ -1,0 +1,12 @@
+{
+	"pn": "270-0040",
+	"mfg": "kingston",
+	"mfgpn": "DTR30G2/16GB",
+	"desc": "Data Traveler 3.0 G2 16 GB USB flash device",
+	"refs": [
+		{
+			"uri": "http://www.kingston.com/datasheets/dtr30g2_us.pdf",
+			"title": "Datasheet"
+		}
+	]
+}
