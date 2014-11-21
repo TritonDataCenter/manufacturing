@@ -1,0 +1,20 @@
+{
+	"pn": "270-0041",
+	"mfg": "hgst",
+	"mfgpn": "0B32068",
+	"desc": "100GB 2.5 SAS Sunset Cove Plus MLC SSD",
+	"resources": [
+		{
+			"class": "storage",
+			"type": "ssd",
+			"size": 100,
+			"qty": 1
+		}
+	],
+	"refs": [
+		{
+			"uri": "http://www.hgst.com/solid-state-storage/enterprise-ssd/sas-ssd/ultrastar-ssd800mhb",
+			"title": "Manufacturer documentation"
+		}
+	]
+}

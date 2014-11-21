@@ -1,0 +1,16 @@
+{
+	"pn": "370-0007",
+	"desc": "SAS slog, 2.5, w/firmware",
+	"dashroll": 1,
+	"rev": 50,
+	"constituents": [
+		{
+			"pn": "270-0041",
+			"qty": 1
+		},
+		{
+			"pn": "270-0042",
+			"qty": 1
+		}
+	]
+}

@@ -2,7 +2,7 @@
 	"pn": "600-0015",
 	"desc": "Joyent Compute Platform 2101, 2U, 32t, 256GB, GP",
 	"alias": "Tenderloin-A/256",
-	"dashroll": 4,
+	"dashroll": 5,
 	"rev": 50,
 	"constituents": [
 		{
@@ -30,7 +30,7 @@
 			"qty": 15
 		},
 		{
-			"pn": "370-0002-01",
+			"pn": "370-0007-01",
 			"qty": 1
 		},
 		{

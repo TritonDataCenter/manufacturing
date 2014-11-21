@@ -1,6 +1,7 @@
 {
 	"pn": "370-0002",
 	"desc": "SATA slog, 2.5, w/firmware",
+	"eol": "2014-11-20",
 	"dashroll": 1,
 	"rev": 50,
 	"constituents": [

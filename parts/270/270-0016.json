@@ -3,5 +3,6 @@
 	"mfg": "stec",
 	"mfgpn": "unknown",
 	"desc": "Mach16 firmware revision 0401",
+	"eol": "2014-11-20",
 	"refs": []
 }
