@@ -24,7 +24,7 @@ which are used as part of SMBIOS and other product naming.
 | Tenderloin A | JCP 2101 | 600-0015 |
 | Tenderloin B | JCP 2201 | 600-0016 |
 | Tenderloin C | JCP 2102 | 600-0017 |
-| Mantis Shrimp MK. II | JSP 7001 | 600-0018 |
+| Mantis Shrimp MK. II | JSP 6001 | 600-0018 |
 | Tenderloin A / Reduced Storage | JCP 2101 | 600-0019 |
 | Tenderloin C / Reduced Storage | JCP 2102 | 600-0020 |
 | Priest River A | JCP 9001 | 600-0021 |
