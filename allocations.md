@@ -15,8 +15,8 @@ which are used as part of SMBIOS and other product naming.
 
 ## Products, SKU, Common Name
 
-| SKU | Product ID | Common Name |
-|-----|------------|-------------|
+| SKU | Common Name | Product ID |
+|-----|-------------|------------|
 | Richmond A | JCP 1101 | 600-0002 |
 | Richmond B | JCP 1201 | 600-0004 |
 | Richmond C | JCP 1102 | 600-0006 |
