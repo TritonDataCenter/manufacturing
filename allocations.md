@@ -53,6 +53,8 @@ and SKUs. This will be followed by an explanation of the scheme.
 | Jirisan C (12) | M12G5 | 600-0034 | - |
 | Jirisan C (24) | M12G5 | 600-0035 | - |
 | Mantis Shrimp Mk. IV | S10G5 | 600-0036 | - |
+| PRD | C10G4 | 800-0001 | - |
+| DRD | C10G5 | 800-0002 | - |
 
 ### Explanation of Product and SKUs
 
@@ -77,13 +79,13 @@ Associated with each line is a two digit value that indicates a product.
 Each line has its own stream of values. The last part of these values
 are used to represent generations. The generations are as follows:
 
-| Generation | Processor |
-|------------|-----------|
-| G1 | Sandy Bridge |
-| G2 | Ivy Bridge |
-| G3 | Haswell |
-| G4 | Broadwell |
-| G5 | Skylake |
+| Generation | Intel Server Processor | Out-of-Band (Conch) |
+|------------|------------------------|---------------------|
+| G1 | Sandy Bridge | - |
+| G2 | Ivy Bridge | - |
+| G3 | Haswell | - |
+| G4 | Broadwell | BCM2837 (ARM Cortex-A53) |
+| G5 | Skylake | Intel Apollo Lake M |
 
 AMD EPYC processors would likely overlap with either G5 or G6 systems if
 they enter the manufacturing system.
@@ -111,6 +113,13 @@ they enter the manufacturing system.
 | S11G2 | SMCI CSE-826BE16-R920LPB, SMCI X9DRD-7JLN4F, Ivy Bridge |
 | S12G5 | SMCI 6029P-E1CR12L, Skylake |
 
+##### Out-of-Band (Conch) Products
+
+| Product | System |
+|---------|--------|
+| C10G4 | RPi 3 B |
+| C10G5 | UP RE-UPS-APLC2-A10-0432 |
+
 #### SKU
 
 The SKU is then used to encode a specific bill of materials. A SKU
@@ -123,6 +132,14 @@ change of the revision.
 
 To get the starting full SKU for any of the Base SKUs listed above,
 append `-001` to the Base SKU.
+
+The leading digit of a SKU assigns it to a family of devices. These are:
+
+| Number | Purpose |
+|--------|---------|
+| 6XX | Traditional servers |
+| 7XX | Networking Equipment |
+| 8XX | Misc. datacenter equipment |
 
 ## Appendix A: Original Product Scheme
 
