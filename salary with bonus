@@ -1,0 +1,6 @@
+a = str(input())
+slry = float(input())
+sld = float(input())
+e = sld*0.15
+t = slry + e
+print("TOTAL = R$ %1.2f" %t)
