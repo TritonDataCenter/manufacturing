@@ -6,6 +6,6 @@
 	"dependencies": {
 		"extsprintf": "~1.0.3",
 		"jsprim": "~0.5.1",
-		"joyent-schemas": "git://github.com/joyent/schemas.git#master"
+		"joyent-schemas": "https://github.com/joyent/schemas.git#master"
 	}
 }
