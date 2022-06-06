@@ -1,5 +1,6 @@
 /*
  * Copyright 2014 Joyent, Inc.  All rights reserved.
+ * Copyrgith 2022 MNX Cloud, Inc.
  */
 
 var path = require('path');
@@ -72,7 +73,7 @@ db.sortParts().forEach(function (p) {
 		});
 
 		if (disks.length > 0)
-			layout = disklayout.compute(disks);
+			layout = disklayout.compute(disks, null, 0, false, 0);
 
 		w('|| %s || %s || %s || %d GiB || %s || %s (%d GB usable) ||\n',
 		    p.pn(), p.alias(), cpu, mem, nic, stor,

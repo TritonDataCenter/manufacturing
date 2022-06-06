@@ -33,5 +33,5 @@ for md_path in sys.argv[1:]:
         sys.exit(1)
     html_path = os.path.basename(os.path.splitext(md_path)[0]) + '.html'
     title = match.group(1).strip()
-    print '<li><a href="%s">%s</a></li>' % (html_path, title)
+    print(f'<li><a href="{html_path}">{title}</a></li>')
 
